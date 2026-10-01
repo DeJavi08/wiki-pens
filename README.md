@@ -14,8 +14,6 @@
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap&logoColor=white&style=flat-square)](https://getbootstrap.com/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
 
-### 🌐 Live Demo
-
 **[pens.dejavi.id](https://pens.dejavi.id)** &nbsp;•&nbsp; **[wiki-pens.vercel.app](https://wiki-pens.vercel.app)**
 
 [📖 Dokumentasi](docs/) &nbsp;•&nbsp;
@@ -24,13 +22,7 @@
 [📝 Menulis Artikel](docs/09-menulis-artikel.md) &nbsp;•&nbsp;
 [❓ FAQ](docs/10-faq.md)
 
-</div>
-
 ---
-
-## 📸 Screenshot Demo
-
-<div align="center">
 
 <img src="https://raw.githubusercontent.com/DeJavi08/wiki-pens/refs/heads/main/public/images/demo.png" alt="PENS Wiki — Demo Screenshot" width="100%" />
 
