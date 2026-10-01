@@ -1,18 +1,10 @@
 # 09. Panduan Menulis Artikel
 
-
-
 > **Tujuan dokumen ini:** Panduan lengkap untuk menulis artikel baru di PENS Wiki.
-
-
 
 ## 📝 Struktur Artikel
 
-
-
 Setiap artikel adalah **file `.md`** di folder `src/content/notes/`, dengan struktur:
-
-
 
 ```markdown
 
@@ -40,10 +32,6 @@ featured: false
 
 ---
 
-
-
 # Judul Artikel
-
-
 
 Isi artikel dalam format Markdown standar.
