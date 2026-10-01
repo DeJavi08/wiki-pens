@@ -1,0 +1,6 @@
+{
+  "name": "PENS Wiki - Ensiklopedia Politeknik Elektronika Negeri Surabaya",
+  "description": "Ensiklopedia pengetahuan Politeknik Elektronika Negeri Surabaya (PENS/EEPIS) berbasis berkas Markdown lengkap dengan Wikilinks, hover preview, interactive graph, dan automatic backlinks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
