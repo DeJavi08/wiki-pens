@@ -1,32 +1,16 @@
-\# 03. Arsitektur Proyek
+# 03. Arsitektur Proyek
 
 
 
-> \*\*Tujuan dokumen ini:\*\* Memahami struktur folder, tech stack, dan alur data aplikasi.
+> **Tujuan dokumen ini:** Memahami struktur folder, tech stack, dan alur data aplikasi.
 
 
 
-\## 🏗️ Tech Stack
+## 🏗️ Tech Stack
 
 
 
-\### Frontend Framework
-
-
-
-| Teknologi | Versi | Fungsi |
-
-| :--- | :--- | :--- |
-
-| \*\*React\*\* | 19.0 | Library UI berbasis komponen |
-
-| \*\*TypeScript\*\* | 7.0 | JavaScript + tipe statis |
-
-| \*\*Vite\*\* | 8.3 | Build tool \& dev server |
-
-
-
-\### Styling
+### Frontend Framework
 
 
 
@@ -34,17 +18,33 @@
 
 | :--- | :--- | :--- |
 
-| \*\*Tailwind CSS\*\* | 4.3 | Utility-first CSS framework |
+| **React** | 19.0 | Library UI berbasis komponen |
 
-| \*\*Bootstrap\*\* | 5.3 | Component-based CSS framework |
+| **TypeScript** | 7.0 | JavaScript + tipe statis |
 
-| \*\*Bootstrap Icons\*\* | 1.13 | Icon library |
-
-| \*\*Lucide React\*\* | 0.546 | Icon library (React components) |
+| **Vite** | 8.3 | Build tool \& dev server |
 
 
 
-\### Graphics \& Animation
+### Styling
+
+
+
+| Teknologi | Versi | Fungsi |
+
+| :--- | :--- | :--- |
+
+| **Tailwind CSS** | 4.3 | Utility-first CSS framework |
+
+| **Bootstrap** | 5.3 | Component-based CSS framework |
+
+| **Bootstrap Icons** | 1.13 | Icon library |
+
+| **Lucide React** | 0.546 | Icon library (React components) |
+
+
+
+### Graphics \& Animation
 
 
 
@@ -52,13 +52,13 @@
 
 | :--- | :--- |
 
-| \*\*HTML5 Canvas 2D\*\* | Render graph view |
+| **HTML5 Canvas 2D** | Render graph view |
 
-| \*\*Motion\*\* | Animasi (opsional) |
+| **Motion** | Animasi (opsional) |
 
 
 
-\### Build \& Deploy
+### Build \& Deploy
 
 
 
@@ -66,14 +66,14 @@
 
 | :--- | :--- |
 
-| \*\*Vite\*\* | Build tool |
+| **Vite** | Build tool |
 
-| \*\*Vercel\*\* | Hosting \& deployment |
+| **Vercel** | Hosting \& deployment |
 
-| \*\*npm\*\* | Package manager |
+| **npm** | Package manager |
 
 
 
-\## 📂 Struktur Folder
+## 📂 Struktur Folder
 
 

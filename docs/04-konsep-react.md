@@ -1,20 +1,20 @@
-\# 04. Konsep React dari Nol
+# 04. Konsep React dari Nol
 
 
 
-> \*\*Tujuan dokumen ini:\*\* Memahami konsep dasar React yang dipakai di PENS Wiki. Cocok untuk yang belum pernah ngoding React.
+> **Tujuan dokumen ini:** Memahami konsep dasar React yang dipakai di PENS Wiki. Cocok untuk yang belum pernah ngoding React.
 
 
 
-\## 🤔 Apa itu React?
+## 🤔 Apa itu React?
 
 
 
-\*\*React\*\* adalah library JavaScript untuk membuat user interface (UI). Dibuat oleh Facebook (Meta) pada 2013, sekarang jadi salah satu library UI paling populer di dunia.
+**React** adalah library JavaScript untuk membuat user interface (UI). Dibuat oleh Facebook (Meta) pada 2013, sekarang jadi salah satu library UI paling populer di dunia.
 
 
 
-\### Masalah yang React Selesaikan
+### Masalah yang React Selesaikan
 
 
 

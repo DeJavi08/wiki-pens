@@ -1,106 +1,106 @@
-\# 07. Graph View \& Simulasi Fisika
+# 07. Graph View \& Simulasi Fisika
 
 
 
-> \*\*Tujuan dokumen ini:\*\* Memahami cara kerja graph view dan simulasi fisika di baliknya.
+> **Tujuan dokumen ini:** Memahami cara kerja graph view dan simulasi fisika di baliknya.
 
 
 
-\## 🕸️ Apa itu Graph View?
+## 🕸️ Apa itu Graph View?
 
 
 
-\*\*Graph View\*\* adalah visualisasi jaringan yang menampilkan:
+**Graph View** adalah visualisasi jaringan yang menampilkan:
 
-\- \*\*Node\*\* (titik) = artikel
+- **Node** (titik) = artikel
 
-\- \*\*Edge\*\* (garis) = wikilink antar artikel
-
-
-
-Graph View membantu user melihat \*\*hubungan antar artikel\*\* secara visual. Ini fitur khas aplikasi seperti \*\*Obsidian\*\*, \*\*Roam Research\*\*, dan \*\*Logseq\*\*.
+- **Edge** (garis) = wikilink antar artikel
 
 
 
-\## 🎯 Dua Jenis Graph
+Graph View membantu user melihat **hubungan antar artikel** secara visual. Ini fitur khas aplikasi seperti **Obsidian**, **Roam Research**, dan **Logseq**.
 
 
 
-\### 1. Local Graph View
+## 🎯 Dua Jenis Graph
 
 
 
-\- \*\*Lokasi:\*\* Sidebar kanan
-
-\- \*\*Fungsi:\*\* Menampilkan artikel aktif + tetangga terdekatnya
-
-\- \*\*Ukuran:\*\* Kecil (220px height)
-
-\- \*\*Tujuan:\*\* Konteks lokal artikel
+### 1. Local Graph View
 
 
 
-\### 2. Global Graph Modal
+- **Lokasi:** Sidebar kanan
+
+- **Fungsi:** Menampilkan artikel aktif + tetangga terdekatnya
+
+- **Ukuran:** Kecil (220px height)
+
+- **Tujuan:** Konteks lokal artikel
 
 
 
-\- \*\*Lokasi:\*\* Modal fullscreen (bisa dibuka dari Local Graph)
-
-\- \*\*Fungsi:\*\* Menampilkan seluruh artikel \& hubungannya
-
-\- \*\*Ukuran:\*\* Besar (70vh height)
-
-\- \*\*Fitur:\*\* Filter kategori, search, zoom controls
+### 2. Global Graph Modal
 
 
 
-\## 🎨 Konsep Simulasi Fisika
+- **Lokasi:** Modal fullscreen (bisa dibuka dari Local Graph)
+
+- **Fungsi:** Menampilkan seluruh artikel \& hubungannya
+
+- **Ukuran:** Besar (70vh height)
+
+- **Fitur:** Filter kategori, search, zoom controls
 
 
 
-\### Kenapa Perlu Simulasi?
+## 🎨 Konsep Simulasi Fisika
+
+
+
+### Kenapa Perlu Simulasi?
 
 
 
 Kalau kita taruh node di posisi acak:
 
-\- Node bisa numpuk
+- Node bisa numpuk
 
-\- Garis bisa kusut
+- Garis bisa kusut
 
-\- Susah dibaca
-
-
-
-Solusi: \*\*simulasi fisika\*\* yang atur posisi otomatis, mirip \*\*force-directed graph\*\*.
+- Susah dibaca
 
 
 
-\### Dua Gaya Utama
+Solusi: **simulasi fisika** yang atur posisi otomatis, mirip **force-directed graph**.
 
 
 
-\#### 1. Hooke's Law (Pegas)
+### Dua Gaya Utama
 
 
 
-\*\*Rumus:\*\* `F = -k × x`
+#### 1. Hooke's Law (Pegas)
 
 
 
-\- `F` = gaya pegas
-
-\- `k` = konstanta pegas (kekakuan)
-
-\- `x` = perpindahan dari posisi setimbang
+**Rumus:** `F = -k × x`
 
 
 
-\*\*Analogi:\*\* Bayangkan edge adalah pegas. Kalau dua node terhubung, mereka ditarik mendekat sampai jarak tertentu (jarak ideal).
+- `F` = gaya pegas
+
+- `k` = konstanta pegas (kekakuan)
+
+- `x` = perpindahan dari posisi setimbang
 
 
 
-\*\*Di kode:\*\*
+**Analogi:** Bayangkan edge adalah pegas. Kalau dua node terhubung, mereka ditarik mendekat sampai jarak tertentu (jarak ideal).
+
+
+
+**Di kode:**
 
 
 
@@ -114,7 +114,7 @@ for (const edge of edges) {
 
 
 
-&#x20; if (s && t) {
+&#x20; if (s \&\& t) {
 
 &#x20;   const dx = t.x - s.x;
 

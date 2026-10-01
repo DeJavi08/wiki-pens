@@ -1,12 +1,12 @@
-\# 05. Bedah Komponen UI
+# 05. Bedah Komponen UI
 
 
 
-> \*\*Tujuan dokumen ini:\*\* Memahami setiap komponen di folder `src/components/`.
+> **Tujuan dokumen ini:** Memahami setiap komponen di folder `src/components/`.
 
 
 
-\## 📋 Daftar Komponen
+## 📋 Daftar Komponen
 
 
 
@@ -36,19 +36,19 @@
 
 
 
-\---
+---
 
 
 
-\## 1. `App.tsx` — Komponen Root
+## 1. `App.tsx` — Komponen Root
 
 
 
-\*\*Fungsi:\*\* Komponen utama yang menyusun seluruh aplikasi dan menyimpan state global.
+**Fungsi:** Komponen utama yang menyusun seluruh aplikasi dan menyimpan state global.
 
 
 
-\*\*State:\*\*
+**State:**
 
 
 

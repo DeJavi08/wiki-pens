@@ -1,38 +1,38 @@
-\# 08. Sistem Theming (Dark/Light Mode)
+# 08. Sistem Theming (Dark/Light Mode)
 
 
 
-> \*\*Tujuan dokumen ini:\*\* Memahami cara kerja sistem tema dark/light dengan CSS Variables.
+> **Tujuan dokumen ini:** Memahami cara kerja sistem tema dark/light dengan CSS Variables.
 
 
 
-\## 🎨 Konsep Theming
+## 🎨 Konsep Theming
 
 
 
 PENS Wiki punya dua tema:
 
-\- ☀️ \*\*Light Mode\*\* — Terang, default
+- ☀️ **Light Mode** — Terang, default
 
-\- 🌙 \*\*Dark Mode\*\* — Gelap, untuk mata nyaman malam
-
-
-
-Theming pakai \*\*CSS Variables\*\* + \*\*data attribute\*\*. Ini teknik modern yang:
-
-\- ✅ Cepat (gak perlu ganti class satu-satu)
-
-\- ✅ Ringan (gak perlu library)
-
-\- ✅ Fleksibel (gampang tambah tema baru)
+- 🌙 **Dark Mode** — Gelap, untuk mata nyaman malam
 
 
 
-\## 🔧 Cara Kerja
+Theming pakai **CSS Variables** + **data attribute**. Ini teknik modern yang:
+
+- ✅ Cepat (gak perlu ganti class satu-satu)
+
+- ✅ Ringan (gak perlu library)
+
+- ✅ Fleksibel (gampang tambah tema baru)
 
 
 
-\### 1. Definisi Variabel di `:root`
+## 🔧 Cara Kerja
+
+
+
+### 1. Definisi Variabel di `:root`
 
 
 

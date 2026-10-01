@@ -1,16 +1,16 @@
-\# 06. Markdown Parser \& Wikilinks
+# 06. Markdown Parser \& Wikilinks
 
 
 
-> \*\*Tujuan dokumen ini:\*\* Memahami cara kerja parser markdown dan sistem wikilinks.
+> **Tujuan dokumen ini:** Memahami cara kerja parser markdown dan sistem wikilinks.
 
 
 
-\## 📖 Apa itu Markdown?
+## 📖 Apa itu Markdown?
 
 
 
-\*\*Markdown\*\* adalah bahasa markup ringan untuk menulis dokumen dengan format tertentu.
+**Markdown** adalah bahasa markup ringan untuk menulis dokumen dengan format tertentu.
 
 
 

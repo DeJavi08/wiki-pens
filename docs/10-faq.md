@@ -1,28 +1,28 @@
-\# 10. FAQ (Frequently Asked Questions)
+# 10. FAQ (Frequently Asked Questions)
 
 
 
-> \*\*Tujuan dokumen ini:\*\* Jawaban untuk pertanyaan yang sering diajukan.
+> **Tujuan dokumen ini:** Jawaban untuk pertanyaan yang sering diajukan.
 
 
 
-\## 🚀 Instalasi \& Setup
+## 🚀 Instalasi \& Setup
 
 
 
-\### Q: Node.js versi berapa yang dibutuhkan?
+### Q: Node.js versi berapa yang dibutuhkan?
 
 
 
-\*\*A:\*\* Minimal Node.js 18.x. Versi LTS direkomendasikan. Cek dengan `node --version`.
+**A:** Minimal Node.js 18.x. Versi LTS direkomendasikan. Cek dengan `node --version`.
 
 
 
-\### Q: Kenapa `npm install` error?
+### Q: Kenapa `npm install` error?
 
 
 
-\*\*A:\*\* Coba langkah berikut:
+**A:** Coba langkah berikut:
 
 ```bash
 

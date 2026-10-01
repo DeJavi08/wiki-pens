@@ -1,34 +1,34 @@
-\# 01. Pengenalan PENS Wiki
+# 01. Pengenalan PENS Wiki
 
 
 
-> \*\*Tujuan dokumen ini:\*\* Memahami apa itu PENS Wiki, latar belakang, dan konsep dasar sebelum masuk ke teknis.
+> **Tujuan dokumen ini:** Memahami apa itu PENS Wiki, latar belakang, dan konsep dasar sebelum masuk ke teknis.
 
 
 
-\## 📖 Apa itu PENS Wiki?
+## 📖 Apa itu PENS Wiki?
 
 
 
-\*\*PENS Wiki\*\* adalah ensiklopedia digital dan pangkalan pengetahuan terpadu (\*knowledge base\*) yang mendokumentasikan seluruh ekosistem Politeknik Elektronika Negeri Surabaya (PENS/EEPIS).
+**PENS Wiki** adalah ensiklopedia digital dan pangkalan pengetahuan terpadu (*knowledge base*) yang mendokumentasikan seluruh ekosistem Politeknik Elektronika Negeri Surabaya (PENS/EEPIS).
 
 
 
-Bayangkan \*\*Wikipedia\*\*, tapi:
+Bayangkan **Wikipedia**, tapi:
 
-\- ✅ Khusus tentang PENS
+- ✅ Khusus tentang PENS
 
-\- ✅ Terhubung dengan \*\*wikilinks\*\* (seperti Obsidian/Notion)
+- ✅ Terhubung dengan **wikilinks** (seperti Obsidian/Notion)
 
-\- ✅ Punya \*\*graph view\*\* yang menampilkan hubungan antar artikel
+- ✅ Punya **graph view** yang menampilkan hubungan antar artikel
 
-\- ✅ Ada \*\*backlinks\*\* otomatis
+- ✅ Ada **backlinks** otomatis
 
-\- ✅ Bisa dipakai sebagai \*\*digital garden\*\* pribadi atau komunitas
+- ✅ Bisa dipakai sebagai **digital garden** pribadi atau komunitas
 
 
 
-\## 🎯 Latar Belakang Proyek
+## 🎯 Latar Belakang Proyek
 
 
 
@@ -52,27 +52,27 @@ Informasi tentang PENS saat ini tersebar di banyak tempat:
 
 
 
-\*\*PENS Wiki\*\* hadir untuk \*\*menyatukan\*\* semua informasi ini dalam satu platform yang:
+**PENS Wiki** hadir untuk **menyatukan** semua informasi ini dalam satu platform yang:
 
-\- Terstruktur \& mudah dicari
+- Terstruktur \& mudah dicari
 
-\- Bisa saling terhubung antar topik
+- Bisa saling terhubung antar topik
 
-\- Mudah dikontribusi siapa pun
+- Mudah dikontribusi siapa pun
 
-\- Terbuka \& transparan
-
-
-
-\## 🌟 Konsep Kunci
+- Terbuka \& transparan
 
 
 
-\### 1. Digital Garden
+## 🌟 Konsep Kunci
 
 
 
-\*\*Digital Garden\*\* adalah pendekatan untuk mengelola catatan yang berbeda dari blog tradisional:
+### 1. Digital Garden
+
+
+
+**Digital Garden** adalah pendekatan untuk mengelola catatan yang berbeda dari blog tradisional:
 
 
 
@@ -90,17 +90,17 @@ Informasi tentang PENS saat ini tersebar di banyak tempat:
 
 
 
-\### 2. Zettelkasten
+### 2. Zettelkasten
 
 
 
-\*\*Zettelkasten\*\* (bahasa Jerman: "kotak catatan") adalah metode manajemen pengetahuan:
+**Zettelkasten** (bahasa Jerman: "kotak catatan") adalah metode manajemen pengetahuan:
 
-\- Setiap catatan = satu ide/konsep
+- Setiap catatan = satu ide/konsep
 
-\- Catatan saling terhubung dengan tautan
+- Catatan saling terhubung dengan tautan
 
-\- Munculkan ide baru dari kombinasi catatan lama
+- Munculkan ide baru dari kombinasi catatan lama
 
 
 
@@ -108,18 +108,18 @@ Di PENS Wiki, setiap artikel adalah "zettel" (catatan) yang bisa di-link ke arti
 
 
 
-\### 3. Bidirectional Links (Backlinks)
+### 3. Bidirectional Links (Backlinks)
 
 
 
 Kalau artikel A menulis `\[\[B]]`:
 
-\- \*\*Forward link\*\*: A → B (A menautkan ke B)
+- **Forward link**: A → B (A menautkan ke B)
 
-\- \*\*Backlink\*\*: B ← A (B tahu kalau A menautkannya)
+- **Backlink**: B ← A (B tahu kalau A menautkannya)
 
 
 
-Ini yang membuat PENS Wiki jadi \*\*jaringan pengetahuan\*\*, bukan sekadar kumpulan artikel.
+Ini yang membuat PENS Wiki jadi **jaringan pengetahuan**, bukan sekadar kumpulan artikel.
 
 
